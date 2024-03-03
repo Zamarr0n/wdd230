@@ -1,0 +1,31 @@
+/* 
+#B4B4B8 - 1
+#C7C8CC - 2
+#E3E1D9 - 3
+#F2EFE5 - 4 
+*/
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+body {
+font-family: "Montserrat", sans-serif;
+font-weight: 300;
+}
+h1 h2 h3 h4 h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.one{
+background-color: #B4B4B8;
+}
+.two{
+background-color:#C7C8CC ;
+}
+.three{
+background-color: #E3E1D9;
+}
+.four{
+background-color:#F2EFE5;
+}
+
+

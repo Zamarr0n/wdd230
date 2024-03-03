@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav div{
+    padding: 1rem 0rem;
+    background-color: black;
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.card ul li{
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+}
+.parent section{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0.3rem;
+}
+.parent h2{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.active{
+    background-color: brown;
+    padding: 1rem 0;
+}
+
+.profile-img{
+    max-width: 100px;
+}

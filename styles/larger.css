@@ -8,9 +8,10 @@
         font-style: normal;
     }
     header{
+        color: white;
         display: flex;
         grid-template-columns: 1fr 1fr;
-        background-color: blue;
+        background-color: black;
         text-align: center;
         align-items: center;
         align-content: center;
@@ -20,21 +21,20 @@
         font-size: 30px;
     }
     nav{
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
-        color: white;
+        color: white;  */
+        /* flex-direction: row; */
     }
-    nav div{
-        padding: 1rem 0rem;
-        background-color: black;
-    }
+    
     div .active{
-        background-color: brown;
+        color: white;
+        background-color: rgb(68, 67, 67);
     }
     nav a{
         text-decoration: none;
-        color: white;
+        color: black;
     }
     section h2{
         text-align: center;
@@ -50,9 +50,17 @@
         grid-template-columns: 2fr 1fr;
         column-gap: 5px;
     }
-
-.parent section{
+    .parent section{
     box-shadow: 1px 1px 10px black;
-}
+    }
+
+    #menu{
+    display: none;
+    }
+
+    .navigation, ul.navigation.open{
+        display: flex;
+        justify-content: flex-end;
+    }
     
 }

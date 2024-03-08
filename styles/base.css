@@ -8,27 +8,62 @@
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: black;
     
 }
 nav div{
     padding: 1rem 0rem;
-    background-color: black;
+    background-color: gray;
     text-align: center;
 }
 header{
+    color: white;
     display: flex;
-    background-color: blue;
+    background-color: black;
     text-align: center;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 footer{
-    background-color: blue;
+    color: white;
+    background-color: black;
     text-align: center;
     padding: 1rem 0rem;
 }
+.navigation a{
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+#menu{
+    font-size: 50px;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+#menu::before{
+    content:"☯︎";
+}
+#menu.open::before{
+    content: 'X';
+}
+.open a {
+    display: block;
+}
+
+
 .card ul li{
     text-decoration: none;
     color: black;
@@ -46,8 +81,15 @@ footer{
     color: white;
 }
 .active{
-    background-color: brown;
-    padding: 1rem 0;
+    color: white;
+    /* background-color: rgb(68, 67, 67); */
+    padding: 0 1rem;
+    border-bottom: 1px solid white;
+    /* background-color: gray; */
+}
+.active::before{
+    content:"➡    ";
+    
 }
 
 .profile-img{

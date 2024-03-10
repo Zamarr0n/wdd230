@@ -1,0 +1,43 @@
+@media screen and (min-width:800px){
+    
+    nav{
+        text-align: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    nav a{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .call-to-action a{
+        color: black;        
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .flex-box{
+        justify-content: center;
+        text-align: center;
+        /* align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-paragraph{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    }
+}

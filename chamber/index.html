@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jose Emilio Zamarron Sanchez">
     <meta name="description" content="Zamarron´s Chamber website is the best place where you will find the best information about technology and everything about their surroundings">
-    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="/favicon.ico" />
@@ -26,9 +26,10 @@ a section containing one to three company 'spotlights' advertisements
 -->
 <body>
     <!-- <h1>Tech Chambers</h1> -->
-    <nav>
-        <ul>
-            <li><a href="#" class="current-page">Home</a></li>
+    <nav class="">
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
@@ -39,10 +40,12 @@ a section containing one to three company 'spotlights' advertisements
         
         <!-- Hero Image -->
         <!-- Here will be the call to action -->
-        <div class="space-bottom hero-div phone-space-bottom">
-        <section class=" hero-image ">
-        <!-- <img src="https://images.pexels.com/photos/4974907/pexels-photo-4974907.jpeg?auto=compress&cs=tinysrgb&w=600" alt="keyboard-image" class="hero-image"> -->
-        </section>
+        <div class="space-bottom  phone-space-bottom">
+        <section class="center heroe-section">
+            <div>
+                <img src="./images/heroe-image.webp" alt="keyboard-image" class="hero-image">
+            </div>
+        </section> 
         <div class="center">
             <button type="submit" class="call-to-action"><a href="">Join the Chamber</a></button>
         </div>
@@ -118,5 +121,6 @@ a section containing one to three company 'spotlights' advertisements
         </div>
     </footer>
     </main>
+    <script src="./script/chamber.js"></script>
 </body>
 </html>

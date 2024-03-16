@@ -40,4 +40,30 @@
         justify-content: center;
         flex-direction:row;
     }
+
+    /* responsive navbar */
+    #menu{
+        display: none;
+    }
+    .navigation a{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        background-color: black;
+        color: white;
+        
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        background-color: black;
+    }
+    .active{
+        color: white;
+    }
+    .heroe-section{
+        background-color: black;
+    }
 }

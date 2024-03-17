@@ -1,6 +1,14 @@
-let olastModified = new Date(document.lastModified);
+// Today´s Date
 const lastModified = document.querySelector('#lastModified');
-lastModified.textContent = olastModified;
+var date = new Date(document.lastModified);
+var day = String(date.getDate()).padStart(2, '0');
+var month = String(date.getMonth() + 1).padStart(2, '0'); //January is 0!
+var year = date.getFullYear();
+date = month + '/' + day + '/' + year;
+lastModified.textContent = date;
+// Today´s Date
+
+// navbar Code
 const hamButton = document.querySelector("#menu")
 const navigation = document.querySelector(".navigation");
 const visits = document.getElementById("visits")

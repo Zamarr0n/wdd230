@@ -16,14 +16,11 @@ const visit = document.getElementById("visit")
 // milliseconds to days constant = 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
 const msToDays = 84600000;
 
-let visitsNum = Number(localStorage.getItem("visitsNum-ls"));
+let visitsNum = Number(localStorage.getItem("Number of visits:"));
 
 if(visitsNum == 0){ 
     visit.textContent = 'Welcome! Let us know if you have any questions😁.';
-} else if(day < 1){
-
-} 
-else{
+} else{
     visit.textContent = visitsNum;
 }
 visitsNum++;

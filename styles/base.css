@@ -31,6 +31,9 @@ footer{
     text-align: center;
     padding: 1rem 0rem;
 }
+.size{
+    font-size: 17px;
+}
 .navigation a{
     display: none;
     text-align: center;
@@ -62,8 +65,23 @@ footer{
 .open a {
     display: block;
 }
-
-
+picture{
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    position:relative;
+    align-items: center;
+}
+.hero span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    text-align: center;
+}
 .card ul li{
     text-decoration: none;
     color: black;
@@ -89,7 +107,22 @@ footer{
     content:"➡    ";
     
 }
-
 .profile-img{
     max-width: 100px;
+}
+.temple-image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0.3rem;
 }

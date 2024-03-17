@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <img src="./images/picture-profile-web-front-end.jpeg" alt="image" class="profile-img">
+        <img src="./images/picture-profile-web-front-end.jpeg" alt="image" class="profile-img" >
         <span>Jose Emilio Zamarron Sanchez</span>
     </header>
     
@@ -32,6 +32,14 @@
         </ul>
     </nav>
     <main>
+    <div class="hero">
+        <picture>
+            <source src="./images/mexico_city_temple_lds_small_screens.webp" media="(max-width: 600px)" class="temple-image" >
+            <img src="./images/mexico_city_temple_lds_big_screen.webp" alt="Salt Lake Temple" class="temple-image" width="600" height="400">
+        </picture>
+        <span> Mexico City Temple </span>
+    </div>
+
         <h1>WDD 230: Web Frontend Development </h1>
         <div class="parent">
         <section class="card learning-activities">
@@ -48,6 +56,16 @@
         <section class="card information">
             <h2>Information</h2>
             <p>Weather Information</p>
+
+            <div class="">
+                <span class="size">Number of visits: <span id="visits" class="size"></span> </span>
+            </div>
+        </section>
+        
+    </div>
+    <div class="center">
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6637.865721783714!2d-103.39686583448793!3d25.573372996755648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1710567658699!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </div>
     </main>

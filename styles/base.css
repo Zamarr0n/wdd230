@@ -122,6 +122,12 @@ picture{
     display: flex;
     justify-content: center;
 }
+.text-center{
+    text-align: center;
+}
+.space-bottom{
+    padding-bottom: 2.5rem;
+}
 .map{
     border: 1px solid black;
     background-color: white;

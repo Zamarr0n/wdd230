@@ -66,4 +66,8 @@
     .heroe-section{
         background-color: black;
     }
+    .two-sides{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }

@@ -10,7 +10,7 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
-let numOfVisits = Number(window.localStorage.getItem('numOfVisit-ls'));
+let numOfVisits = Number(localStorage.getItem('numOfVisit-ls'));
 
 if (numOfVisits !== 0){
     visits.textContent = numOfVisits;
@@ -20,4 +20,4 @@ if (numOfVisits !== 0){
 
 numOfVisits++;
 
-localStorage.setItem('numOfVisits-ls', visits);
+localStorage.setItem('Number of visits:', visits);

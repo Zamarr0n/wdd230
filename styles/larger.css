@@ -77,8 +77,16 @@
     .active{
         color: white;
     }
-    
     /* -------------------------------------------------- */
     
-    
+    .two-sides{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .info-section{
+        max-width: 80%;
+    }
+    .img_technology:hover{
+    box-shadow: 0 0 50px #333;
+    }
 }

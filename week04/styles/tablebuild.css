@@ -1,0 +1,28 @@
+:root{
+    --background-color: black;
+    --color: white;
+    --zebra: rgb(122, 121, 121);
+}
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+}
+thead{
+    padding: 0 1.5rem;
+}
+
+
+tr td{
+    padding: 1.5rem;
+}
+.title{
+    background-color: var(--background-color);
+    color: var(--color);
+}
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+.second-row th:nth-child(+1) {
+    background-color: var(--background-color);
+}

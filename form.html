@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="icon" href="favicon.ico" />
+    <meta property="og:title" content="Emilio Zamarron Home Page">
+    <meta property="og:type" content="Home page for week02 activity">
+    <meta property="og:image" content="/images/picture-profile-web-front-end.jpeg">
+    <meta property="og;url" content="https://zamarr0n.github.io/wdd230/">
+    <meta name="author" content="Emilio Zamarron Sanchez">
+    <meta name="description" content="Form Activity of week04 from the course of front-end in BYU-Idaho">
+    <title>Form - Team Activity </title>
+</head>
+<body>
+    <header>
+        <img src="./images/picture-profile-web-front-end.jpeg" alt="image" class="profile-img" >
+        <span>Jose Emilio Zamarron Sanchez</span>
+    </header>
+    
+    
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active" title="Home">Home</a></li>
+            <li><a href="./week01/chamber-site-plan.html" title="Chamber">Chamber</a></li>
+            <li><a href="#" title="Site Plan">Site Plan</a></li>
+            <li><a href="#" title="Form">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+        <label>User Name<input type="text" id="username" name="userName" required></label>
+
+        <label>Password<input type="password" id="pass-word" name="password" pattern="/^[a-zA-Z0-9]+$/" required></label>
+        <!-- pattern="/^[a-zA-Z0-9]+$/" -->
+        <label>Password Confirmation<input type="password" id="pass-word-confirmation" name="password" pattern="/^[a-zA-Z0-9]+$/" required></label>
+
+        <label>Email<input type="email" name="email" id="email" required title="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ "></label>
+                
+        <label>Page Rating</label>
+        <div id="rangeValue" class="number">0</div>
+        <input type="range" name="rating" id="page-rating" value="0" min="0" max="10" step="1" list="rangeValues">
+        <datalist id="rangeValues">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+        </fieldset>
+        <p id="invalid-input"></p>
+        <input type="submit" value="Send Form">
+    </form>
+    </main>
+    <footer>
+        <p> &copy; 2024 Jose Emilio Zamarron Sanchez - Mexico - </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/getDates.js"></script>
+    <script src="3./scripts/form.js"></script>
+</body>
+</html>

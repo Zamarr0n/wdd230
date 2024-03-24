@@ -1,0 +1,82 @@
+:root{
+    --background-color: #eee;
+    --color:black;
+    --standar-font:20px;
+    --space-standar : 1rem;
+}
+
+/* .flex-box{
+    display: grid;
+    margin: 0;
+} */
+
+.space{
+    padding-bottom: var(--space-standar);
+}
+.benefits{
+    max-width: 80%;
+    margin: auto;
+}
+.form legend{
+    font-size: 25px;
+}
+.form label{
+    display: block;
+    padding: 1rem;
+    font-size:20px;
+}
+.form fieldset{
+    max-width: 85%;
+    padding-left: var(--space-standar);
+}
+
+
+.form input[type='email'],
+.form input[type='password']{
+    background-color: var(--background-color);
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 300px;
+}
+.form input[type='text']{
+    background-color: var(--background-color);
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form input[type="radio"]{
+    margin-right: 6px;
+}
+.button{
+    border: none;
+    background-image: linear-gradient(#9c1313, #6f0e0e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+}
+.form input:required{
+    border-bottom: solid 2px red;
+}
+.form input:required:valid{
+    border-bottom: solid 8px green;
+}
+
+
+@media screen and (min-width:800px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,11 +1,13 @@
 // Today´s Date
 const lastModified = document.querySelector('#lastModified');
+const lastStamp = document.querySelector('#timeStamp');
 var date = new Date(document.lastModified);
 var day = String(date.getDate()).padStart(2, '0');
 var month = String(date.getMonth() + 1).padStart(2, '0'); //January is 0!
 var year = date.getFullYear();
 date = month + '/' + day + '/' + year;
 lastModified.textContent = date;
+lastStamp.textContent = date
 // Today´s Date
 
 // navbar Code

@@ -88,11 +88,11 @@ main {
     width: 100%;
     max-width: 400px;
 }
-.wf1 input [type="radio"],
-.wf1 input [type="radio"]{
+.wf1 input[type="radio"],
+.wf1 input[type="radio"]{
     margin-right: 6px;
 }
-.wf1 input [type="submit"]{
+.wf1 input[type="submit"]{
     border: none;
     background-image: linear-gradient(#9c2c13, #6f200e);
     color: #fff;

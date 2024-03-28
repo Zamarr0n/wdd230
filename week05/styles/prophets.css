@@ -1,0 +1,10 @@
+#cards{
+    background-color: rgb(118, 135, 135);
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media screen-size and (min-width:800px){
+
+}

@@ -1,0 +1,32 @@
+
+{
+    "family-last-Name" : "Jefferson",
+    "date-they-move-into-the-ward": 2012,
+    "family-members": 4,
+    "Visited-by-bishopric:" : true,
+    "Individual-family-member": [
+        {
+            "name":"Jefferson",
+            "Gender": "male",
+            "Birthday":"January / 10 / 1890"
+        },
+        {
+            "name":"Pamela",
+            "Gender": "female",
+            "Birthday":"February / 10 / 1890"
+        },
+        {
+            "name":"Steve",
+            "Gender": "male",
+            "Birthday":"October / 10 / 2009"
+        },
+        {
+            "name":"Nataly",
+            "Gender": "female",
+            "Birthday":"December / 11 / 2010"
+        }
+    ]
+}
+
+
+

@@ -135,3 +135,10 @@ picture{
     overflow: hidden;
     margin: 1rem 0.3rem;
 }
+.icon-weather{
+    display: block;
+    margin: 0 auto;
+}
+.weather-div{
+    padding-bottom: 1rem;
+}

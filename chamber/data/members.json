@@ -2,7 +2,7 @@
     "members":
     [
         {
-            "info-members" :[
+            "info" :[
                 {
                     "name":"Jefferson",
                     "Gender": "male",
@@ -11,7 +11,7 @@
                     "phone": "897-786-2341",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "bishop"
+                    "membership": "bishop"
                 },
                 {
                     "name":"Melanie",
@@ -20,7 +20,7 @@
                     "phone": "897-786-2343",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Relief Society"
+                    "membership": "Relief Society"
                 },
                 {
                     "name":"David",
@@ -29,7 +29,7 @@
                     "phone": "897-786-2332",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Priesthood"
+                    "membership": "Priesthood"
                 },
                 {
                     "name":"Annabel",
@@ -38,7 +38,7 @@
                     "phone": "897-786-3441",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Relief Society"
+                    "membership": "Relief Society"
                 },
                 {
                     "name":"Dylan",
@@ -47,7 +47,7 @@
                     "phone": "897-786-4563",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Priesthood"
+                    "membership": "Priesthood"
                 },
                 {
                     "name":"Sofia",
@@ -56,7 +56,7 @@
                     "phone": "897-897-2341",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Relief Society"
+                    "membership": "Relief Society"
                 },
                 {
                     "name":"Gustavo",
@@ -65,7 +65,7 @@
                     "phone": "345-786-2341",
                     "url" : "https://website_url",
                     "image":"image",
-                    "membership-level": "Priesthood"
+                    "membership": "Priesthood"
                 }
             
             ]

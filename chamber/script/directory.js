@@ -41,7 +41,7 @@ const displayData = (data) => {
             link.setAttribute("href", url);
             link.textContent = 'web-page';
             portrait.setAttribute("src", data.image);
-            portrait.setAttribute("alt", "member photo");
+            portrait.setAttribute("alt", data.image);
             portrait.setAttribute("width", '340');
             portrait.setAttribute("loading", 'lazy');
             portrait.setAttribute("height", '440');

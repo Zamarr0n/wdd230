@@ -21,6 +21,7 @@ const displayData = (data) => {
             const Phone = data.phone;
             const url = data.url;
             const image = data.image;
+            console.log(image)
             const membership = data.membership;
             //Creating elements to implement the data inside them.
             const div = document.createElement("div");
@@ -39,7 +40,7 @@ const displayData = (data) => {
             paragraph4.textContent = membership;
             link.setAttribute("href", url);
             link.textContent = 'web-page';
-            portrait.setAttribute("src", image);
+            portrait.setAttribute("src", data.image);
             portrait.setAttribute("alt", "member photo");
             portrait.setAttribute("width", '340');
             portrait.setAttribute("loading", 'lazy');

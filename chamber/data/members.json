@@ -6,7 +6,7 @@
                 {
                     "name":"Jefferson",
                     "Gender": "male",
-                    "address": "lorem",
+                    "address": "123 Main Street, Anytown, USA",
                     "phone": "897-786-2341",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -15,7 +15,7 @@
                 {
                     "name":"Melanie",
                     "Gender": "female",
-                    "address": "lorem",
+                    "address": "456 Elm Avenue, Springfield, USA",
                     "phone": "897-786-2343",
                     "url" : "https://website_url",
                     "image" : "https://images.pexels.com/photos/785667/pexels-photo-785667.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -24,7 +24,7 @@
                 {
                     "name":"David",
                     "Gender": "male",
-                    "address": "lorem",
+                    "address": "789 Maple Lane, Lakeside, USA",
                     "phone": "897-786-2332",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -33,7 +33,7 @@
                 {
                     "name":"Annabel",
                     "Gender": "female",
-                    "address": "lorem",
+                    "address": "101 Oak Street, Riverside, USA",
                     "phone": "897-786-3441",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -42,7 +42,7 @@
                 {
                     "name":"Dylan",
                     "Gender": "male",
-                    "address": "lorem",
+                    "address": "234 Pine Road, Mountainview, USA",
                     "phone": "897-786-4563",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -51,7 +51,7 @@
                 {
                     "name":"Sofia",
                     "Gender": "female",
-                    "address": "lorem",
+                    "address": "567 Cedar Court, Sunset, USA",
                     "phone": "897-897-2341",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/2576788/pexels-photo-2576788.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -60,7 +60,7 @@
                 {
                     "name":"Gustavo",
                     "Gender": "male",
-                    "address": "lorem",
+                    "address": "890 Birch Avenue, Willow Creek, USA",
                     "phone": "345-786-2341",
                     "url" : "https://website_url",
                     "image":"https://images.pexels.com/photos/837306/pexels-photo-837306.jpeg?auto=compress&cs=tinysrgb&w=600",

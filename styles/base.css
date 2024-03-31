@@ -142,3 +142,13 @@ picture{
 .weather-div{
     padding-bottom: 1rem;
 }
+#cards-div{
+    text-align: center;
+}
+.style{
+    border: solid .5px black;
+    margin: 1.5rem;
+    padding-bottom: 1rem;
+    box-shadow: 12px 12px 2px 1px rgba(131, 128, 128, 0.2);
+    background-color: white;
+}

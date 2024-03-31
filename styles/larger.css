@@ -89,4 +89,10 @@
     .img_technology:hover{
     box-shadow: 0 0 50px #333;
     }
+    #cards-div{
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    
 }

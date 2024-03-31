@@ -41,10 +41,10 @@ const displayData = (data) => {
             link.setAttribute("href", url);
             link.textContent = 'web-page';
             portrait.setAttribute("src", data.image);
-            portrait.setAttribute("alt", data.image);
-            portrait.setAttribute("width", '340');
+            portrait.setAttribute("alt", "members image");
+            portrait.setAttribute("width", '300');
             portrait.setAttribute("loading", 'lazy');
-            portrait.setAttribute("height", '440');
+            portrait.setAttribute("height", '300');
             //apending the childs so evrything is inside the div
             div.appendChild(h1);
             div.appendChild(portrait);
@@ -54,10 +54,12 @@ const displayData = (data) => {
             div.appendChild(link);
             div.appendChild(paragraph4);
             section.appendChild(div);
+            div.classList.add("style");
         });
         
     });
 }
+
 
 getLink();
 

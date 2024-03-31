@@ -9,7 +9,7 @@
                     "address": "lorem",
                     "phone": "897-786-2341",
                     "url" : "https://website_url",
-                    "image":"/chamber/images/image-members.jpeg",
+                    "image":"../images/image-members.jpeg",
                     "membership": "Priesthood"
                 },
                 {

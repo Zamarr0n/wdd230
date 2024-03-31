@@ -2,16 +2,15 @@
     "members":
     [
         {
-            "info" :[
+            "info":[
                 {
                     "name":"Jefferson",
                     "Gender": "male",
-                    "Birthday":"January / 10 / 1890",
                     "address": "lorem",
                     "phone": "897-786-2341",
                     "url" : "https://website_url",
-                    "image":"image",
-                    "membership": "bishop"
+                    "image":"../images/image-members.webp",
+                    "membership": "Priesthood"
                 },
                 {
                     "name":"Melanie",
@@ -19,7 +18,7 @@
                     "address": "lorem",
                     "phone": "897-786-2343",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members1.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -28,7 +27,7 @@
                     "address": "lorem",
                     "phone": "897-786-2332",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members2.webp",
                     "membership": "Priesthood"
                 },
                 {
@@ -37,7 +36,7 @@
                     "address": "lorem",
                     "phone": "897-786-3441",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members3.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -46,7 +45,7 @@
                     "address": "lorem",
                     "phone": "897-786-4563",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members4.webp",
                     "membership": "Priesthood"
                 },
                 {
@@ -55,7 +54,7 @@
                     "address": "lorem",
                     "phone": "897-897-2341",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members5.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -64,7 +63,7 @@
                     "address": "lorem",
                     "phone": "345-786-2341",
                     "url" : "https://website_url",
-                    "image":"image",
+                    "image":"../images/image-members6.webp",
                     "membership": "Priesthood"
                 }
             

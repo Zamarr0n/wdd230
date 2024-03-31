@@ -9,7 +9,7 @@
                     "address": "lorem",
                     "phone": "897-786-2341",
                     "url" : "https://website_url",
-                    "image":"../images/image-members.webp",
+                    "image":"/chamber/images/image-members.webp",
                     "membership": "Priesthood"
                 },
                 {
@@ -18,7 +18,7 @@
                     "address": "lorem",
                     "phone": "897-786-2343",
                     "url" : "https://website_url",
-                    "image":"../images/image-members1.webp",
+                    "image" : "/chamber/images/image-members1.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -27,7 +27,7 @@
                     "address": "lorem",
                     "phone": "897-786-2332",
                     "url" : "https://website_url",
-                    "image":"../images/image-members2.webp",
+                    "image":"/chamber/images/image-members2.webp",
                     "membership": "Priesthood"
                 },
                 {
@@ -36,7 +36,7 @@
                     "address": "lorem",
                     "phone": "897-786-3441",
                     "url" : "https://website_url",
-                    "image":"../images/image-members3.webp",
+                    "image":"/chamber/images/image-members3.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -45,7 +45,7 @@
                     "address": "lorem",
                     "phone": "897-786-4563",
                     "url" : "https://website_url",
-                    "image":"../images/image-members4.webp",
+                    "image":"/chamber/images/image-members4.webp",
                     "membership": "Priesthood"
                 },
                 {
@@ -54,7 +54,7 @@
                     "address": "lorem",
                     "phone": "897-897-2341",
                     "url" : "https://website_url",
-                    "image":"../images/image-members5.webp",
+                    "image":"/chamber/images/image-members5.webp",
                     "membership": "Relief Society"
                 },
                 {
@@ -63,7 +63,7 @@
                     "address": "lorem",
                     "phone": "345-786-2341",
                     "url" : "https://website_url",
-                    "image":"../images/image-members6.webp",
+                    "image":"/chamber/images/image-members6.webp",
                     "membership": "Priesthood"
                 }
             

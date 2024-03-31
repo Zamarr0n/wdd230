@@ -28,7 +28,7 @@ const displayData = (data) => {
             const paragraph = document.createElement("p");
             const paragraph2 = document.createElement("p");
             const link = document.createElement("a");
-            const img = document.createElement("img");
+            const portrait = document.createElement("img");
             const paragraph3 = document.createElement("p");
             const paragraph4 = document.createElement("p");
             //implementing the data with the objects created inside the html
@@ -39,13 +39,14 @@ const displayData = (data) => {
             paragraph4.textContent = membership;
             link.setAttribute("href", url);
             link.textContent = 'web-page';
-            img.setAttribute("src", image);
-            img.setAttribute("alt", "member photo");
-            img.setAttribute("width", '450px');
-            img.setAttribute("height", '450px');
+            portrait.setAttribute("src", image);
+            portrait.setAttribute("alt", "member photo");
+            portrait.setAttribute("width", '340');
+            portrait.setAttribute("loading", 'lazy');
+            portrait.setAttribute("height", '440');
             //apending the childs so evrything is inside the div
             div.appendChild(h1);
-            div.appendChild(img);
+            div.appendChild(portrait);
             div.appendChild(paragraph);
             div.appendChild(paragraph2);
             div.appendChild(paragraph3);

@@ -54,7 +54,7 @@ async function fetchData(){
 }
 }
 function displayData(data){
-    temperature.innerHTML = `${data.main.temp} C`;
+    temperature.innerHTML = `${data.main.temp} F`;
     const icon_url =`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description
     icon.setAttribute("src",icon_url);

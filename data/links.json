@@ -9,7 +9,7 @@
                 },
                 {
                     "url":"../week01/media-query.html",
-                    "title":"mQueries"
+                    "title":"Media Queries"
                 },
                 {
                     "url":"../week01/chamber-site-plan.html",
@@ -21,12 +21,16 @@
             "week": "week 2",
             "links": [
                 {
-                    "url": "../week02/bom.html",
-                    "title":"Bom Activity"
+                    "url":"./week02/bom.html",
+                    "title":"DOM Manipulation"
+                },
+                {
+                    "url":"https://codepen.io/blazzard-jason/pen/BaOwMvg",
+                    "title":"Code-Pen-Activity "
                 },
                 {
                     "url":"../week02/design.html",
-                    "title":"Design Activity"
+                    "title":"Code-Pen-Activity-W02"
                 }
             ]
         },
@@ -34,8 +38,12 @@
             "week": "week 3",
             "links": [
                 {
+                    "url": "week03/images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
                     "url": "../week03/bom.html",
-                    "title":"Bom Activity W03"
+                    "title":"Web Storage API - localStorage"
                 },
                 {
                     "url":"../week03/lazyload.html",
@@ -52,7 +60,7 @@
             "links": [
                 {
                     "url": "../week04/image.html",
-                    "title":"Image Activity W04"
+                    "title":"CSS Combinators"
                 },
                 {
                     "url":"../week04/tablebuild.html",
@@ -61,6 +69,10 @@
                 {
                     "url":"../week04/Form-start/index.html",
                     "title":"Form Activity W04"
+                },
+                {
+                    "url":"https://codepen.io/tout_noir01/pen/xxeqYwo",
+                    "title":"CSS Pseudo-Classes"
                 }
             ]
         },
@@ -74,6 +86,22 @@
                 {
                     "url":"../week05/weather.html",
                     "title":"Weather Activity"
+                },
+                {
+                    "url":"https://codepen.io/tout_noir01/pen/jORLWvW",
+                    "title":"Pseudo-Elements (CSS3)"
+                },
+                {
+                    "url":"./week05/new-ward-members.json",
+                    "title":"JSON - assignment"
+                }
+            ]
+        },
+        {
+            "week":"week 6",
+            "links": [
+                {
+                    
                 }
             ]
         }

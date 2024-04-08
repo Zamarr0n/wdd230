@@ -25,7 +25,7 @@ nav a{
     color: white;
 }
 footer{
-    background-color: #F2EFE5 ;
+    background-color: #8886867e ;
     
 }
 a{
@@ -34,13 +34,16 @@ a{
 .call-to-action a{
     color: black; 
 }
+.space-button{
+    padding-top: 2rem;
+}
 
 .current-page::before{
     content: "☞";
     
 }
 .center button{
-    background-color: #B4B4B8;
+    background-color: #8b898991;
     padding: 20px;
     border-radius: 5%;
     color: rgb(27, 27, 27);
@@ -95,8 +98,19 @@ a{
     background-color: black;
 }
 /* responsive navbar */
+
+
+.heroe-section{
+    /* background-color: black; */
+    background-image: url("../images/pexels-thisisengineering-3861972.jpg");
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
 .hero-image{
     max-width: 100%;
+    width:auto;
 }
 .space-bottom{
     padding-bottom: 2.5rem;
@@ -110,7 +124,16 @@ a{
 .flex-box{
     justify-content: center;
     text-align: center;
-    max-width: 800px;
+    width: 500px;
+    border: 1px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-box1{
+    justify-content: center;
+    text-align: center;
+    width: 500px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -123,6 +146,7 @@ a{
     margin-bottom: 2rem;
 }
 .footer-style{
+    padding-top: 1rem;
     margin-bottom: 2rem;
 }
 .phone-space-bottom{

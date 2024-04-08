@@ -38,7 +38,6 @@
     .footer-paragraph{
         display: flex;
         justify-content: center;
-        flex-direction:row;
     }
 
     /* responsive navbar */
@@ -65,9 +64,34 @@
     }
     .heroe-section{
         background-color: black;
+        background-image: url("../images/pexels-thisisengineering-3861972.jpg");
+        padding: 18rem;
+        background-repeat: no-repeat;
+        background-size:100%;
+        
     }
     .two-sides{
         display: grid;
         grid-template-columns: auto auto;
+    }
+    .flex-box{
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        /* flex: 1; */
+        /* border: .05px; */
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flex-box1{
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        /* flex: 1; */
+        /* border: .05px; */
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

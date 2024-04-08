@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="/favicon.ico" />
-    <meta property="og:title" content="Zamarron´s Chamber Home Page">
+    <meta property="og:title" content="Zamarron´s Chamber of Commerce ">
     <meta property="og:type" content="Home page of Zamarron´s Chamber">
     <meta property="og:image" content="https://images.pexels.com/photos/6147031/pexels-photo-6147031.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
-    <meta property="og;url" content="https://zamarr0n.github.io/wdd230/">
+    <meta property="og;url" content="https://zamarr0n.github.io/wdd230/chamber/index.html">
     <script src="https://kit.fontawesome.com/24602a443b.js" crossorigin="anonymous"></script>
-    <title>Zamarron´s Chamber</title>
+    <title>Zamarron´s Chamber of Commerce </title>
 </head>
 <!-- 
 The main area will have content specific to the home page. The five required components are as follows:
@@ -40,84 +40,95 @@ a section containing one to three company 'spotlights' advertisements
         
         <!-- Hero Image -->
         <!-- Here will be the call to action -->
-        <div class="space-bottom  phone-space-bottom">
+        <section class="space-bottom  phone-space-bottom hero-section">
         <section class="center heroe-section">
-            <div>
-                <img src="./images/heroe-image.webp" alt="keyboard-image" class="hero-image">
-            </div>
+                <!-- <img src="./images/pexels-thisisengineering-3861972.jpg" alt="keyboard-image" class="hero-image" width="1200px" height="500px" > -->
         </section> 
-        <div class="center">
+        <div class="center ">
+            <div class="space-button">
             <button type="submit" class="call-to-action"><a href="">Join the Chamber</a></button>
+            </div>
         </div>
-        </div>
+        </section>
+        <!-- You need to add and h1  " Must contain the city/municipality name and the words "Chamber of Commerce " -->
 
 
         <!-- Image and text -->
         <section class="flex-container space-bottom phone-space-bottom">
-        <div class="flex-box flex-style phone-space-bottom">
+        <div class="flex-box1 flex-style phone-space-bottom">
             <h2>Events</h2>
             
-            <h3>🍎 Apples new Iphone - review</h3>
+            <h3>🍎 Apples new Iphone - review 🍎</h3>
             <p>
-                In this week Apple has reveal the new Iphone, see you the nex thursday to ee the new features and tehnology coming with it!! 😁
+                In this week Apple has reveal the new Iphone, see you the nex thursday to see the new features and tehnology coming with it!! 😁
             </p>
         </div>
-        <div class="flex-box flex-style">
+        <div class="flex-box1 flex-style">
             <h2>weather section </h2>
-            
-            <p>Here will be the weather information with the API given or chosen</p>
+            <label>Please enter your city for your weather information:</label>
+            <br>
+            <br>
+            <input type="text" id="city">
+            <input type="button" id="getData" value="Search">
+            <div class="weather-div">
+                <img id="icon-weather" class="icon-weather">
+                <p id="temperature" class="center"> <p id="description-weather" class="center"></p></p>
+            </div>
         </div>
     </section>
         
     <!-- member spotlights -->
     <div class="center phone-space-bottom">
-        <h2>Company Spotlights</h2>
+        <h2>Member Spotlights:</h2>
     </div>
     <section class="flex-container space-bottom phone-space-bottom">
         <div class="flex-box flex-style phone-space-bottom">
             <!-- google icon -->
-            <i class="fa-brands fa-google fa-3x"></i>
+            <i class="fa-brands fa-google fa-4x"></i>
             <h2> Google</h2>
             <p class="quotes">"Our favorites news about tech"</p>
             <p>google@gmail.com</p>
             <p>+55 890 1489</p>
-            <p>website</p>
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwim5ejLybGFAxUJl-4BHUj2D7IQPAgJ">Google - website</a>
         </div>
         
         <div class="flex-box flex-style phone-space-bottom">
             <!-- facebook icon -->
-            <i class="fa-brands fa-square-facebook fa-3x"></i>
+            <i class="fa-brands fa-square-facebook fa-4x"></i>
             <h2>Facebook</h2>
             <p class="quotes">"Our favorite daily lecture about tech"</p>
             <p>facebook@gmail.com</p>
             <p>+55 890 1452</p>
-            <p>website</p>
+            <a href="https://www.facebook.com/">facebook - website</a>
         </div>
 
         <div class="flex-box flex-style phone-space-bottom">
             <!-- Amazon icon -->
-            <i class="fa-brands fa-amazon fa-3x"></i>
+            <i class="fa-brands fa-amazon fa-4x"></i>
             <h2>Amazon</h2>
             <p class="quotes">"The best lecture I ever had"</p>
-            <p>facebook@gmail.com</p>
+            <p>amazon@gmail.com</p>
             <p>+55 890 8976</p>
-            <p>website</p>
+            <a href="https://www.amazon.com.mx/?&tag=hydramzkw0mx-20&ref=pd_sl_2y6dol47uv_e&adgrpid=150779884221&hvpone=&hvptwo=&hvadid=675207151838&hvpos=&hvnetw=g&hvrand=11232897880908427892&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1010040&hvtargid=kwd-360364908397&hydadcr=13959_13404201&gad_source=1">amazon - website</a>
         </div>
     </section>
     <footer>
         <section class="flex-container">
         <div class="flex-box footer-style">
+            <i class="fa-solid fa-microchip fa-2x"></i>
             <h2>Zamarron´s chamber place</h2>
             <p>Torreon, Coahuila, Mexico</p>
         </div>
         <div class="flex-box footer-style">
+            <i class="fa-solid fa-at fa-2x"></i>
             <p>emilio.zamarrons@gmail.com</p>
             <p>871 424 3573</p>
         </div>
     </section>
         <div class="footer-paragraph">
-        <p>WDD230 - Project </p>
-        <p>Last Modification <p id="lastModification"></p></p>
+        <p>WDD230 - Project - </p>
+        <p>Last Modification:</p>
+        <p id="modification"></p>
         </div>
     </footer>
     </main>

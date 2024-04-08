@@ -10,6 +10,7 @@ lastModified.textContent = date;
 // lastStamp.textContent = date;
 
 
+
 // navbar Code
 const hamButton = document.querySelector("#menu")
 const navigation = document.querySelector(".navigation");

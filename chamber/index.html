@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="../favicon.ico" />
     <meta property="og:title" content="Zamarron´s Chamber of Commerce ">
-    <meta property="og:type" content="Home page of Zamarron´s Chamber">
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://images.pexels.com/photos/6147031/pexels-photo-6147031.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
     <meta property="og;url" content="https://zamarr0n.github.io/wdd230/chamber/index.html">
     <script src="https://kit.fontawesome.com/24602a443b.js" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@ a section containing one to three company 'spotlights' advertisements
         <button id="menu"></button>
         <ul class="navigation">
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="./directory.html">Discover</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li><a href="./join.html">Join</a></li>
         </ul>
     </nav>
 
@@ -50,9 +50,6 @@ a section containing one to three company 'spotlights' advertisements
             </div>
         </div>
         </section>
-        <!-- You need to add and h1  " Must contain the city/municipality name and the words "Chamber of Commerce " -->
-
-
         <!-- Image and text -->
         <section class="flex-container space-bottom phone-space-bottom">
         <div class="flex-box1 flex-style phone-space-bottom">
@@ -71,8 +68,9 @@ a section containing one to three company 'spotlights' advertisements
             <input type="text" id="city">
             <input type="button" id="getData" value="Search">
             <div class="weather-div">
-                <img id="icon-weather" class="icon-weather">
-                <p id="temperature" class="center"> <p id="description-weather" class="center"></p></p>
+                <!-- I left the SRC and the ALT attributes in blank because it will affect the javascript code -->
+                <img id="icon-weather" class="icon-weather" src="#" alt="">
+                <p id="temperature" class="center"> <p id="description-weather" class="center"></p> </p>
             </div>
         </div>
     </section>

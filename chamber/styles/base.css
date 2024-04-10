@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Roboto", sans-serif; */
     font-weight: 300;
     font-style: normal;
 }
-/* body{} */
 
 
 nav{
@@ -14,7 +12,6 @@ nav{
     padding: 1rem;
     justify-content:center;
     padding: 2.5rem 0; 
-    /* margin-bottom: 1.5rem; */
 }
 
 ul li{
@@ -101,7 +98,6 @@ a{
 
 
 .heroe-section{
-    /* background-color: black; */
     background-image: url("../images/pexels-thisisengineering-3861972.jpg");
     padding: 8rem;
     background-repeat: no-repeat;
@@ -139,7 +135,6 @@ a{
     margin-right: auto;
 }
 .flex-style{
-    /* border: 2.5px solid black; */
     border-radius: 5%;
     box-shadow: 2px 2px 3px 2px rgb(128, 127, 127);
     box-decoration-break: slice;

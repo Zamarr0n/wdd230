@@ -5,10 +5,6 @@
     --space-standar : 1rem;
 }
 
-/* .flex-box{
-    display: grid;
-    margin: 0;
-} */
 
 .space{
     padding-bottom: var(--space-standar);
